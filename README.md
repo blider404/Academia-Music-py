@@ -47,8 +47,3 @@ academia_player/
 - Auto-importação diária de uma pasta de downloads
 - Sessão restaurada ao reabrir (último álbum, volume, shuffle/repeat, janela maximizada)
 
-## Possíveis próximos passos
-
-- Mover `Library.scan()` para rodar em background thread, evitando travar a
-  UI ao carregar bibliotecas grandes.
-- Cache de metadados entre execuções (evitar reler tags de arquivos que não mudaram).
