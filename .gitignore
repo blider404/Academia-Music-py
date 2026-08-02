@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Biblioteca pessoal de músicas e alarme — não deve ir pro repositório
+musicas/
+alarme.mp3
+
+# Configuração local do usuário (fica em ~/.academia_player_pro_config.json,
+# listado aqui só como precaução caso alguém rode fora do padrão)
+*.academia_player_pro_config.json
+
+.vscode/
+.idea/
+.DS_Store
